@@ -195,7 +195,10 @@ throw new ApiError(401 , " unauthorized request")
     if(incomingRefreshToken!==user?.refreshToken){
        throw new ApiError(401, "refreshToken is expired or used")
     }
- 
+     const options = {
+            httpOnly: true,
+            secure: true
+        }
     const {accessToken , newRefreshToken} = await generateAccessAndRefreshTokens(user._id)
  
     return res
