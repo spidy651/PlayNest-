@@ -23,7 +23,7 @@ export default function Subscriptions() {
   }, [user]);
 
   return (
-    <div className="text-white p-6">
+    <div className="text-slate-800 p-6">
       <h1 className="text-xl font-bold mb-4">Subscriptions</h1>
 
       {channels.length === 0 ? (

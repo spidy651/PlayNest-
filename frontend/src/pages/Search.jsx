@@ -38,7 +38,7 @@ export default function Search() {
   if (loading) return <Loader fullscreen />;
 
   return (
-    <div className="min-h-screen bg-blue-50 text-white pt-20 px-6">
+    <div className="min-h-screen bg-blue-50 text-slate-800 pt-20 px-6">
       <h1 className="text-xl font-semibold mb-6">
         Search results for "{query}"
       </h1>

@@ -106,7 +106,7 @@ export default function Signup() {
                 value={form[field]}
                 onChange={handleChange}
                 required
-                className="bg-blue-50 border border-[#2a2a2a] rounded-lg px-4 py-2.5 text-white"
+                className="bg-blue-50 border border-[#2a2a2a] rounded-lg px-4 py-2.5 text-slate-800"
               />
             ))}
 

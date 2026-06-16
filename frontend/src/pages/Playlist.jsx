@@ -159,13 +159,13 @@ console.log(res.data);
                 onChange={(e) => setForm((f) => ({ ...f, name: e.target.value }))}
                 placeholder="Playlist name"
                 required
-                className="w-full bg-blue-50 border border-[#2a2a2a] focus:border-blue-500 rounded-lg px-4 py-2.5 text-sm text-white outline-none placeholder-gray-600 transition-colors"
+                className="w-full bg-blue-50 border border-[#2a2a2a] focus:border-blue-500 rounded-lg px-4 py-2.5 text-sm text-slate-800 outline-none placeholder-gray-600 transition-colors"
               />
               <input
                 value={form.description}
                 onChange={(e) => setForm((f) => ({ ...f, description: e.target.value }))}
                 placeholder="Description (optional)"
-                className="w-full bg-blue-50 border border-[#2a2a2a] focus:border-blue-500 rounded-lg px-4 py-2.5 text-sm text-white outline-none placeholder-gray-600 transition-colors"
+                className="w-full bg-blue-50 border border-[#2a2a2a] focus:border-blue-500 rounded-lg px-4 py-2.5 text-sm text-slate-800 outline-none placeholder-gray-600 transition-colors"
               />
               <div className="flex gap-3">
                 <Button type="submit" loading={creating}>Create</Button>

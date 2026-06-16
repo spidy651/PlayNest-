@@ -189,13 +189,13 @@ export default function Watch() {
           {/* Channel row */}
           <div className="flex flex-wrap items-center gap-3 mb-4">
             <Link to={`/channel/${video.owner?.username}`} className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-violet-600 to-pink-500 flex items-center justify-center text-white font-semibold overflow-hidden">
+              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-violet-600 to-pink-500 flex items-center justify-center text-slate-800 font-semibold overflow-hidden">
                 {video.owner?.avatar
                   ? <img src={video.owner.avatar} alt={video.owner.username} className="w-full h-full object-cover" />
                   : video.owner?.username?.[0]?.toUpperCase()}
               </div>
               <div>
-                <p className="text-sm font-medium text-white">{video.owner?.username}</p>
+                <p className="text-sm font-medium text-slate-800">{video.owner?.username}</p>
                 <p className="text-xs text-gray-400">{formatViews(video.owner?.subscribersCount)} subscribers</p>
               </div>
             </Link>

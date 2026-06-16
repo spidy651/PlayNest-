@@ -15,7 +15,7 @@ export default function History() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-blue-50 text-white pt-16 px-6">
+    <div className="min-h-screen bg-blue-50 text-slate-800 pt-16 px-6">
       
       {/* Heading */}
       <h1 className="text-2xl font-bold mb-6">Watch History</h1>
@@ -52,7 +52,7 @@ export default function History() {
               </div>
 
               {/* Title */}
-              <p className="mt-2 text-sm font-medium text-white line-clamp-2 group-hover:text-blue-400 transition">
+              <p className="mt-2 text-sm font-medium text-slate-800 line-clamp-2 group-hover:text-blue-400 transition">
                 {v.title}
               </p>
 

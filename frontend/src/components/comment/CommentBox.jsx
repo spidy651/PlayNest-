@@ -60,7 +60,7 @@ export default function CommentBox({ videoId, onCommentAdded }) {
           onChange={(e) => setText(e.target.value)}
           onFocus={() => setFocused(true)}
           placeholder="Add a comment..."
-          className="w-full bg-transparent border-b border-[#2a2a2a] focus:border-white outline-none text-sm text-white placeholder-gray-500 pb-2 transition-colors"
+          className="w-full bg-transparent border-b border-[#2a2a2a] focus:border-white outline-none text-sm text-slate-800 placeholder-gray-500 pb-2 transition-colors"
           onKeyDown={(e) => e.key === "Enter" && handleSubmit()}
         />
         {error && <p className="text-red-400 text-xs mt-1">{error}</p>}
