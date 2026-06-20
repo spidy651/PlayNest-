@@ -1,0 +1,15 @@
+[33mcommit 1c7eb20f1143e86a6f8c2ed4cd7002c59ec6c470[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Sandeep Mishra <sandeepmsr123@gmail.com>
+Date:   Wed Jun 17 00:31:05 2026 +0530
+
+    text color
+
+ backend/src/index.js                           | 12 [32m++++++[m[31m------[m
+ frontend/src/components/comment/CommentBox.jsx |  2 [32m+[m[31m-[m
+ frontend/src/pages/History.jsx                 |  4 [32m++[m[31m--[m
+ frontend/src/pages/Playlist.jsx                |  4 [32m++[m[31m--[m
+ frontend/src/pages/Search.jsx                  |  2 [32m+[m[31m-[m
+ frontend/src/pages/Signup.jsx                  |  2 [32m+[m[31m-[m
+ frontend/src/pages/Subscriptions.jsx           |  2 [32m+[m[31m-[m
+ frontend/src/pages/Watch.jsx                   |  4 [32m++[m[31m--[m
+ 8 files changed, 16 insertions(+), 16 deletions(-)

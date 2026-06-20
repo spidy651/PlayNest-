@@ -9,11 +9,12 @@ export default function History() {
   useEffect(() => {
     const fetch = async () => {
       const res = await getWatchHistory();
+      console.log(res);
       setVideos(res?.data || []);
     };
     fetch();
   }, []);
-
+console.log("videos state:", videos);
   return (
     <div className="min-h-screen bg-blue-50 text-slate-800 pt-16 px-6">
       

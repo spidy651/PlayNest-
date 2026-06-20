@@ -203,8 +203,12 @@ const getVideoById = asyncHandler(async (req, res) => {
     //       new: true
     //    }
     // );
-
+    console.log("=== getVideoById called ===");
+   console.log("req.user:", req.user);
+   console.log("videoId:", req.params.videoId);
     if (req.user?._id) {
+        console.log("req.user:", req.user);
+        console.log("videoId:", videoId);
         await User.findByIdAndUpdate(
             req.user._id,
             {
